@@ -236,7 +236,7 @@ namespace Laba3_DM
 
             label9.Text = samodvoynaya ? "Да" : "Нет";
 
-            label8.Text = triangle[2].e4 == "1" && triangle[2].e6 == "1" && triangle[2].e7 == "1" && triangle[2].e8 == "1" ? "Да" : "Нет";
+            label8.Text = triangle[2].e4 == "1" && triangle[2].e6 == "1" && triangle[2].e7 == "1" && triangle[2].e8 == "1" ? "Нет" : "Да";
 
             label10.Text = func[0] <= func[1] && func[0] <= func[2] && func[0] <= func[3] && func[1] <= func[3] && func[1] <= func[5] && func[2] <= func[3] && func[2] <= func[6] && func[3] <= func[7] && func[4] <= func[5] && func[4] <= func[6] && func[5] <= func[7] && func[6] <= func[7] ? "Да" : "Нет";
 
